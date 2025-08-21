@@ -2,12 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="47b6cffa-4864-4811-be17-dce84dba136c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Data/grailqa_v1.0_train.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/GraDeRAG.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/GraDeRAG.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -22,6 +31,104 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="RunManager" selected="Python.collect_v">
+    <configuration name="collect_v" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="GraDeRAG" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Adversarial suffix" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Adversarial suffix/collect_v.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="grade_sensitivity_surface" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="GraDeRAG" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Appendix A" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Appendix A/grade_sensitivity_surface.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="mathcalV_base" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="GraDeRAG" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Adversarial suffix" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Adversarial suffix/mathcalV_base.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="GraDeRAG" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Adversarial suffix" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Adversarial suffix/test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.collect_v" />
+        <item itemvalue="Python.mathcalV_base" />
+        <item itemvalue="Python.test" />
+        <item itemvalue="Python.grade_sensitivity_surface" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -46,6 +153,7 @@
       <option name="presentableId" value="Default" />
       <updated>1754877517631</updated>
       <workItem from="1754877520085" duration="29000" />
+      <workItem from="1755158821210" duration="11157000" />
     </task>
     <servers />
   </component>
@@ -53,14 +161,56 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="700" y="446" key="com.intellij.ide.util.TipDialog" timestamp="1754877529686">
+    <state x="734" y="209" key="#grade_sensitivity_surface" timestamp="1755158838495">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
-    <state x="700" y="446" key="com.intellij.ide.util.TipDialog/-1920.-7.1920.1040/0.0.1920.1160@0.0.1920.1160" timestamp="1754877529686" />
+    <state x="734" y="209" key="#grade_sensitivity_surface/-1920.-7.1920.1040/0.0.1920.1160@0.0.1920.1160" timestamp="1755158838495" />
+    <state x="604" y="307" key="FileChooserDialogImpl" timestamp="1755158883373">
+      <screen x="0" y="0" width="1920" height="1160" />
+    </state>
+    <state x="604" y="307" key="FileChooserDialogImpl/-1920.-7.1920.1040/0.0.1920.1160@0.0.1920.1160" timestamp="1755158883373" />
+    <state width="1340" height="309" key="GridCell.Tab.0.bottom" timestamp="1755784963194">
+      <screen x="0" y="0" width="1920" height="1160" />
+    </state>
+    <state width="1340" height="309" key="GridCell.Tab.0.bottom/-1920.-7.1920.1040/0.0.1920.1160@0.0.1920.1160" timestamp="1755784963194" />
+    <state width="1340" height="309" key="GridCell.Tab.0.center" timestamp="1755784963193">
+      <screen x="0" y="0" width="1920" height="1160" />
+    </state>
+    <state width="1340" height="309" key="GridCell.Tab.0.center/-1920.-7.1920.1040/0.0.1920.1160@0.0.1920.1160" timestamp="1755784963193" />
+    <state width="1340" height="309" key="GridCell.Tab.0.left" timestamp="1755784963192">
+      <screen x="0" y="0" width="1920" height="1160" />
+    </state>
+    <state width="1340" height="309" key="GridCell.Tab.0.left/-1920.-7.1920.1040/0.0.1920.1160@0.0.1920.1160" timestamp="1755784963192" />
+    <state width="1340" height="309" key="GridCell.Tab.0.right" timestamp="1755784963193">
+      <screen x="0" y="0" width="1920" height="1160" />
+    </state>
+    <state width="1340" height="309" key="GridCell.Tab.0.right/-1920.-7.1920.1040/0.0.1920.1160@0.0.1920.1160" timestamp="1755784963193" />
+    <state width="1340" height="328" key="GridCell.Tab.1.bottom" timestamp="1755158630341">
+      <screen x="0" y="0" width="1920" height="1160" />
+    </state>
+    <state width="1340" height="328" key="GridCell.Tab.1.bottom/-1920.-7.1920.1040/0.0.1920.1160@0.0.1920.1160" timestamp="1755158630341" />
+    <state width="1340" height="328" key="GridCell.Tab.1.center" timestamp="1755158630341">
+      <screen x="0" y="0" width="1920" height="1160" />
+    </state>
+    <state width="1340" height="328" key="GridCell.Tab.1.center/-1920.-7.1920.1040/0.0.1920.1160@0.0.1920.1160" timestamp="1755158630341" />
+    <state width="1340" height="328" key="GridCell.Tab.1.left" timestamp="1755158630341">
+      <screen x="0" y="0" width="1920" height="1160" />
+    </state>
+    <state width="1340" height="328" key="GridCell.Tab.1.left/-1920.-7.1920.1040/0.0.1920.1160@0.0.1920.1160" timestamp="1755158630341" />
+    <state width="1340" height="328" key="GridCell.Tab.1.right" timestamp="1755158630341">
+      <screen x="0" y="0" width="1920" height="1160" />
+    </state>
+    <state width="1340" height="328" key="GridCell.Tab.1.right/-1920.-7.1920.1040/0.0.1920.1160@0.0.1920.1160" timestamp="1755158630341" />
+    <state x="700" y="446" key="com.intellij.ide.util.TipDialog" timestamp="1755158821515">
+      <screen x="0" y="0" width="1920" height="1160" />
+    </state>
+    <state x="700" y="446" key="com.intellij.ide.util.TipDialog/-1920.-7.1920.1040/0.0.1920.1160@0.0.1920.1160" timestamp="1755158821515" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/GraDeRAG$prepare_annotation_sheet.coverage" NAME="prepare_annotation_sheet Coverage Results" MODIFIED="1754881974143" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Data/scripts" />
-    <SUITE FILE_PATH="coverage/GraDeRAG$test.coverage" NAME="test Coverage Results" MODIFIED="1755155344188" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Appendix A" />
-    <SUITE FILE_PATH="coverage/GraDeRAG$grade_sensitivity_surface.coverage" NAME="grade_sensitivity_surface Coverage Results" MODIFIED="1755155012331" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Appendix A" />
+    <SUITE FILE_PATH="coverage/GraDeRAG$test.coverage" NAME="test Coverage Results" MODIFIED="1755784129172" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Adversarial suffix" />
+    <SUITE FILE_PATH="coverage/GraDeRAG$collect_v.coverage" NAME="collect_v Coverage Results" MODIFIED="1755784963183" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Adversarial suffix" />
+    <SUITE FILE_PATH="coverage/GraDeRAG$grade_sensitivity_surface.coverage" NAME="grade_sensitivity_surface Coverage Results" MODIFIED="1755158956584" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Appendix A" />
+    <SUITE FILE_PATH="coverage/GraDeRAG$mathcalV_base.coverage" NAME="mathcalV_base Coverage Results" MODIFIED="1755784950539" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Adversarial suffix" />
   </component>
 </project>
