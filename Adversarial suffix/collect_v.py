@@ -1,11 +1,12 @@
 import collections
 from datasets import load_dataset
 from spacy.lang.en.stop_words import STOP_WORDS
-import os # 引入 os 模块来检查文件是否存在
+import os  # 引入 os 模块来检查文件是否存在
 
 # ==================
 #  辅助函数
 # ==================
+
 
 def load_vocabulary_from_file(filename="v_base.txt"):
     """
@@ -15,7 +16,7 @@ def load_vocabulary_from_file(filename="v_base.txt"):
     if not os.path.exists(filename):
         print(f"错误: 基础词汇表文件 '{filename}' 不存在！")
         print("请先运行 base 脚本生成该文件。")
-        return set() # 返回一个空集合
+        return set()  # 返回一个空集合
 
     with open(filename, 'r', encoding='utf-8') as f:
         # 使用集合推导式高效读取，并去除每行末尾的换行符
@@ -46,9 +47,10 @@ def mine_adversarial_words_from_dataset(dataset_name="llm-attacks/AdvBench", top
     print(f"\n--- 开始从本地文件自动挖掘指令词 ---")
 
     # 1. 加载本地数据集
-    local_file_path = "advbench_train.parquet" # 确保这个文件和你的脚本在同一个目录下
+    local_file_path = "advbench_train.parquet"  # 确保这个文件和你的脚本在同一个目录下
     try:
-        dataset = load_dataset("parquet", data_files={'train': local_file_path}, split='train')
+        dataset = load_dataset("parquet", data_files={
+                               'train': local_file_path}, split='train')
         print(f"本地数据集 '{local_file_path}' 加载成功。")
     except FileNotFoundError:
         print(f"错误: 本地数据集文件 '{local_file_path}' 未找到！")
@@ -59,7 +61,6 @@ def mine_adversarial_words_from_dataset(dataset_name="llm-attacks/AdvBench", top
         return set()
 
     # 2. 聚合所有提示文本
-    # *** 唯一的修改在这里：将 'goal' 改为 'prompt' ***
     all_prompts_text = " ".join([item['prompt'] for item in dataset])
 
     # 3. 词频统计
@@ -98,7 +99,8 @@ if __name__ == "__main__":
         print("\n由于基础词汇表加载失败，程序已中止。")
     else:
         # 步骤二：从数据集中挖掘新的对抗性词汇
-        mined_adversarial_words = mine_adversarial_words_from_dataset(top_n=100)
+        mined_adversarial_words = mine_adversarial_words_from_dataset(
+            top_n=100)
 
         # 步骤三：合并两个词汇集合
         print("\n--- 开始合并词汇表 ---")
